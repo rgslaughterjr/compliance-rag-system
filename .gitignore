@@ -1,0 +1,47 @@
+# Secrets - NEVER commit these!
+.env
+*.key
+.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Databases (too large for GitHub)
+chroma_db/
+*.sqlite3
+*.db
+
+# Vector store data
+week-*-vector-store/
+
+# Documents (too large for GitHub)
+documents/
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test outputs
+.pytest_cache/
+.coverage
+htmlcov/
